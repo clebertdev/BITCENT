@@ -5,7 +5,7 @@ export default function Slogan() {
                 flex flex-col  md:items-start
                 text-3xl sm:text-4xl lg:text-6xl text-white font-light
             `}>
-                <span>Gerencia sua finanças</span>                
+                <span>Gerencia suas finanças</span>                
                 <span>com praticidade e sabedoria.</span>                
             </div>
         )
