@@ -15,7 +15,7 @@ export default function RedeSocial(props: RedeSocialProps) {
                 {React.cloneElement(props.icone, {
                     size: 35,  //tamanho
                     strokeWidth: 1,  //grossura
-                    className: "text-indigo-500",  
+                    className: "bg-gradient-to-r to-purple-600 from-zinc-900",  
 
                 })}
             </div>
