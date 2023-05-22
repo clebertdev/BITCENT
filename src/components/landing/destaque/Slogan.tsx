@@ -2,7 +2,7 @@ export default function Slogan() {
     function renderizarFrasePrincipal() {
         return (
             <div className={`
-                flex flex-col items-center md:items-start
+                flex flex-col  md:items-start
                 text-3xl sm:text-4xl lg:text-6xl text-white font-light
             `}>
                 <span>Gerencia sua finanças</span>                
