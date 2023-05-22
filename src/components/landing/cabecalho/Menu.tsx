@@ -12,7 +12,7 @@ export default function Menu(){
         <div>
            <MenuItem 
            onClick={loginGoogle} 
-           className="bg-gradient-to-r from-indigo-600 to-cyan-600">
+           className="bg-gradient-to-r to-purple-600 from-zinc-900">
                 
                 <div className="flex items-center gap-2">
                     <IconBrandGoogle size={15} />

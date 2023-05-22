@@ -5,8 +5,8 @@ export default function Slogan() {
                 flex flex-col items-center md:items-start
                 text-3xl sm:text-4xl lg:text-6xl text-white font-light
             `}>
-                <span>Melhor maneira de </span>                
-                <span>organizar seu dinheiro</span>                
+                <span>Gerencia sua finanças</span>                
+                <span>com praticidade e sabedoria.</span>                
             </div>
         )
     }
