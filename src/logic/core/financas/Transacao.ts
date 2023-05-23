@@ -3,14 +3,14 @@ import { TipoTransacao } from "./TipoTransacao"
 export default interface Transacao {
     id?: string
     descricao: string
-    valor: number
+    valor: string
     data: Date
     tipo: TipoTransacao
 }
 
 export const transacaoVazia: Transacao = {
     descricao: '',
-    valor: 0,
+    valor: '',
     data: new Date(),
     tipo: TipoTransacao.DESPESA
 }
