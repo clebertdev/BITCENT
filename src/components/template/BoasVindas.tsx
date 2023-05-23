@@ -9,7 +9,10 @@ export default function BoasVindas() {
     
     return (
         <div className={`text-white text-3xl font-black`}>
-            Olá <span className="hidden sm:inline">
+            <span className="bg-gradient-to-r from-purple-600 to-zinc-900 me-5 rounded-s">
+                Olá 
+            </span>
+            <span className="hidden sm:inline">
                 {usuario?.nome?.split(' ')[0]}</span> 👋
         </div>
     )
